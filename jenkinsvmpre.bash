@@ -64,6 +64,12 @@ sudo systemctl enable docker
 sudo apt-add-repository --yes --update ppa:ansible/ansible
 sudo apt install -y ansible
 
+sudo apt install python-docker -y 
+sudo apt install python-pip -y 
+sudo pip install docker
+sudo pip install docker-py
+sudo pip install bcrypt
+
 echo 
 echo
 az --version 2>/dev/null
